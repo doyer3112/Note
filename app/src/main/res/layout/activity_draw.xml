@@ -25,13 +25,13 @@
             android:layout_below="@+id/toolbar"
             android:background="#cdcdcd" />
 
-        <com.seewo.note.newnote.view.widget.DrawView
+        <com.rdc.lichaojian.note.view.widget.DrawView
             android:id="@+id/draw_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/line" />
 
-        <com.seewo.note.newnote.view.widget.VerticalSeekBar
+        <com.rdc.lichaojian.note.view.widget.VerticalSeekBar
             android:id="@+id/seekBar"
             android:layout_width="wrap_content"
             android:layout_height="200dp"

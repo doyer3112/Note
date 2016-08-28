@@ -274,7 +274,7 @@ public class DrawActivity extends BaseActivity implements View.OnClickListener, 
                 mModeSelectWindow.showPopupWindow(v);
                 break;
             case R.id.rl_shear:
-                mDrawView.setCurrentState(ShearState.getInstance(mDrawView));
+                //mDrawView.setCurrentState(ShearState.getInstance(mDrawView));
                 break;
             case R.id.rl_hard_eraser:
                 mDrawView.setCurrentState(EraserState.getInstance());
