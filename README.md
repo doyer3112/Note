@@ -17,3 +17,8 @@
 
 ## Gif图展示
 ![](https://raw.githubusercontent.com/chaojian/Note/master/app/src/main/res/drawable/output.gif)
+
+# 鸣谢
+
+- com.nostra13.universalimageloader:universal-image-loader:1.9.3（图片加载框架）
+- com.larswerkman:HoloColorPicker:1.5（取色板选择）
