@@ -16,4 +16,4 @@
 - 笔迹的缩放
 
 ## Gif图展示
-![](http://github/chaojian/Note/app/src/main/res/drawable/output.gif) 
+![](https://raw.githubusercontent.com/chaojian/Note/master/app/src/main/res/drawable/output.gif)
