@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--tab1-->
+    <LinearLayout
+        android:paddingRight="15dp"
+        android:gravity="right|center_vertical"
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_normal_mode_select"
+            android:background="@drawable/mode_select_bg"
+            style="@style/navigation_tab_rl_style">
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:text="@string/mode_path"
+                style="@style/navigation_tab_iv_style"/>
+        </RelativeLayout>
+    </LinearLayout>
+<!--tab2-->
+    <LinearLayout
+        android:layout_weight="1.2"
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_line_mode_select"
+            android:background="@drawable/mode_select_bg"
+            style="@style/navigation_tab_rl_style">
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:text="@string/mode_line"
+                style="@style/navigation_tab_iv_style"/>
+        </RelativeLayout>
+    </LinearLayout>
+<!--tab3-->
+    <LinearLayout
+        android:layout_weight="1.2"
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_rectangle_mode_select"
+            android:background="@drawable/mode_select_bg"
+            style="@style/navigation_tab_rl_style">
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:text="@string/mode_rectangle"
+                style="@style/navigation_tab_iv_style"/>
+        </RelativeLayout>
+    </LinearLayout>
+<!--tab4-->
+    <LinearLayout
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_circle_mode_select"
+            android:background="@drawable/mode_select_bg"
+            style="@style/navigation_tab_rl_style">
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:text="@string/mode_circle"
+                style="@style/navigation_tab_iv_style"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

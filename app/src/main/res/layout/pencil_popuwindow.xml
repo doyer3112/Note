@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/popuwindow_bg"
+    android:layout_height="wrap_content">
+
+    <!--tab1-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_pencil_menu_select"
+            android:background="@drawable/ic_pencil_normal_bg"
+            style="@style/navigation_tab_rl_style">
+            <ImageView
+                style="@style/navigation_tab_iv_style"
+                android:background="@drawable/ic_menu_pencil" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab2-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:background="@drawable/ic_pen_normal_bg"
+            style="@style/navigation_tab_rl_style">
+            <ImageView
+                android:background="@drawable/ic_menu_pen"
+                style="@style/navigation_tab_iv_style" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab3-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:background="@drawable/ic_water_normal_bg"
+            style="@style/navigation_tab_rl_style">
+            <ImageView
+                style="@style/navigation_tab_iv_style"
+                android:background="@drawable/ic_menu_watercolor" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab4-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:background="@drawable/ic_chalk_normal_bg"
+            style="@style/navigation_tab_rl_style">
+            <ImageView
+                style="@style/navigation_tab_iv_style"
+                android:background="@drawable/ic_menu_chalk" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab5-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:background="@drawable/ic_marker_normal_bg"
+            style="@style/navigation_tab_rl_style">
+            <ImageView
+                style="@style/navigation_tab_iv_style"
+                android:background="@drawable/ic_menu_marker" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab6-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:background="@drawable/ic_soft_normal_bg"
+            style="@style/navigation_tab_rl_style">
+            <ImageView
+                style="@style/navigation_tab_iv_style"
+                android:background="@drawable/ic_menu_soft_charcoal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

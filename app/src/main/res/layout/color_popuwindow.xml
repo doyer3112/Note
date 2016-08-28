@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/popuwindow_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--tab1-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_color_first"
+            android:background="@drawable/add_draw_press_bg"
+            style="@style/navigation_tab_rl_style">
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab2-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_color_second"
+            android:background="@drawable/ic_pen_normal_bg"
+            style="@style/navigation_tab_rl_style">
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab3-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_third_color"
+            android:background="@drawable/ic_water_normal_bg"
+            style="@style/navigation_tab_rl_style">
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab4-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_fourth_color"
+            android:background="@drawable/ic_chalk_normal_bg"
+            style="@style/navigation_tab_rl_style">
+
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab5-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_color_fifth"
+            android:background="@drawable/ic_marker_normal_bg"
+            style="@style/navigation_tab_rl_style">
+        </RelativeLayout>
+    </LinearLayout>
+    <!--tab6-->
+    <LinearLayout
+        style="@style/navigation_tab_ll_style">
+
+        <RelativeLayout
+            android:id="@+id/rl_color_sixth"
+            android:background="@drawable/ic_soft_normal_bg"
+            style="@style/navigation_tab_rl_style">
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

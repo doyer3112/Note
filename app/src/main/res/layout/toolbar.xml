@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_back"
+        style="@style/toolbar_item_ll_style">
+        <Button
+            style="@style/toolbar_item_btn_style"
+            android:background="@drawable/titlebar_ic_back_dark"
+            android:id="@+id/btn_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_num"
+        android:layout_weight="1"
+        style="@style/toolbar_item_ll_style">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_page_size"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:text="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_add"
+        android:gravity="center"
+        style="@style/toolbar_item_ll_style">
+        <Button
+            android:background="@drawable/add_draw_view"
+            style="@style/toolbar_item_btn_style"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_undo"
+        style="@style/toolbar_item_ll_style">
+        <Button
+            style="@style/toolbar_item_btn_style"
+            android:background="@drawable/ic_undo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_redo"
+        style="@style/toolbar_item_ll_style">
+        <Button
+            style="@style/toolbar_item_btn_style"
+            android:background="@drawable/ic_redo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_reset"
+        style="@style/toolbar_item_ll_style">
+        <Button
+            style="@style/toolbar_item_btn_style"
+            android:background="@drawable/ic_reset" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_save"
+        style="@style/toolbar_item_ll_style">
+        <Button
+            style="@style/toolbar_item_btn_style"
+            android:background="@drawable/ic_complete_drawing" />
+    </LinearLayout>
+
+</LinearLayout>
