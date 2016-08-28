@@ -10,13 +10,14 @@ import android.widget.GridView;
 import com.rdc.lichaojian.note.activity.R;
 import com.rdc.lichaojian.note.adapter.MainAdapter;
 import com.rdc.lichaojian.note.config.NoteApplication;
+import com.rdc.lichaojian.note.utils.FileUtils;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 
-public class MainActivity extends BaseActivity implements View.OnClickListener{
+public class MainActivity extends BaseActivity implements View.OnClickListener, AdapterView.OnItemClickListener{
 
     private static final String TAG = "MainActivity";
     private List<Map<String,String>> mPicturePathList;
@@ -35,7 +36,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         gridView.setOnItemClickListener(this);
         findViewById(R.id.add_draw).setOnClickListener(this);
         mPicturePathList = FileUtils.getPicturesPath(NoteApplication.ROOT_DIRECTORY);
-        mPictureAdapter = new MainPictureAdapter(this, mPicturePathList);
+        mPictureAdapter = new MainAdapter(this, mPicturePathList);
         gridView.setAdapter(mPictureAdapter);
     }
 
